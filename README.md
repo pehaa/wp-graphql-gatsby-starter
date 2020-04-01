@@ -1,12 +1,12 @@
-# WP GraphQL Gatsby Starter
+# Fork: WP GraphQL Gatsby Starter taking advantage of WordPress search (via ApolloClient)
 
-> A super simple, bare-bone starter based on the Gatsby Starter for the front end and the WP GraphQL plugin on your WordPress install. 
+> A super simple, bare-bone starter based on the Gatsby Starter for the front end and the WP GraphQL plugin on your WordPress install.
 
-This is a basic "headless CMS" setup. This starter will pull posts, pages, categories, tags, and a menu from your WordPress site. You should use either the TwentyNineteen or TwentyTwenty WordPress themes on your WordPress install. 
+This is a basic "headless CMS" setup. This starter will pull posts, pages, categories, tags, and a menu from your WordPress site. You should use either the TwentyNineteen or TwentyTwenty WordPress themes on your WordPress install.
 
-The example here uses the WordPress Theme Unit Test Data for post and page dummy content. 
+The example here uses the WordPress Theme Unit Test Data for post and page dummy content.
 
-**Find something wrong?** Issues are welcome on the starter reository. 
+**Find something wrong?** Issues are welcome on the starter reository.
 
 This Stater should get you started at 💯💯💯💯 across the board on Chrome Lighthouse Audits
 
@@ -14,7 +14,7 @@ This Stater should get you started at 💯💯💯💯 across the board on Chrom
 
 ## Get Started
 
-I've tried to make this as simple and straightforward to get started. 
+I've tried to make this as simple and straightforward to get started.
 
 Here's the [DEMO](https://wp-graphql-gatsby-starter.netlify.com/).
 
@@ -32,13 +32,13 @@ If you've already got your WordPress site set up, or you are just looking to pla
 ## Clone and Configure Your Gatsby Starter
 
 1. Clone this repo, `cd` into it, and then `npm install`.
-2. Go to `gatsby-config.js` and modify this line to be your URL: `url: `https://your-wordpress-site.com/graphql`,` Make sure you keep the `/graphql` at the end!
+2. Go to `gatsby-config.js` and modify this line to be your URL: `url:`https://your-wordpress-site.com/graphql`,` Make sure you keep the `/graphql` at the end!
 3. If your menu is configured correctly, and you've copy-pasted your correct URL into the `gatsby-config.js` file, that should be all you need to do to set up.
 
 ## Running the Gatsby Site
 
 1. In your termninal, run `gatsby develop`. You should see your site building successfully!
-2. If you don't, and you get errors, make sure the WPGraphQL plugin is installed on your WordPress site and that it is activated. Also make sure that you have run `npm install` to get all the required packages. 
+2. If you don't, and you get errors, make sure the WPGraphQL plugin is installed on your WordPress site and that it is activated. Also make sure that you have run `npm install` to get all the required packages.
 
 ## Adjustments
 
@@ -120,8 +120,7 @@ If you need to edit ID or the depth of the menu, you can do so in the `src/compo
 
 ## ToDo List and Stretch Goals
 
-- ___ Featured images done with Gatsby Image
-- ___ Pagination for Posts, Pages, Categories, Tags
-- ___ better menu handling for multiple menu levels and children-of-parent pages (e.g. About>>Our Team)
-- ___ internal links are replaced with Gatsby `Link` (`gatsby-plugin-catch-links` doesn't seem to work?)
-
+- \_\_\_ Featured images done with Gatsby Image
+- \_\_\_ Pagination for Posts, Pages, Categories, Tags
+- \_\_\_ better menu handling for multiple menu levels and children-of-parent pages (e.g. About>>Our Team)
+- \_\_\_ internal links are replaced with Gatsby `Link` (`gatsby-plugin-catch-links` doesn't seem to work?)
